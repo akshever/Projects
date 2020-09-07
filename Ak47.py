@@ -16,14 +16,13 @@ print("INITIALIZING AK47")
 speak("INITIALIZING AK47")
 
 speak("Hello sir...Ak47 here...How can I help...type help if you want the commands")
-enter = (input("hello sir\nAk47here.\nHow can I help\n type help if you want the commands"))
+enter = (input("hello sir\nAk47here.\nHow can I help\n type help if you want the commands\n"))
 if enter == ("help"):
-     print("the commands are-\n google\ncmd\ncalculator\nyoutube\ngmail\ncalender\nfacebook\nmusic\ntime\nkrunker.io\nroblox\n")
-speak("the commands are-...google...cmd...calculator...youtube...gmail...calender...facebook...music...time...krunker.io...roblox\ninstagram\nnews\ndictionary\ntwitter\nwhatsapp\nprimevideo\namazon\nnetflix\namazon\nflipkart")
-elif enter == ("cmd"):
-    subprocess.call('cmd.exe')
+     print("the commands are-\n google\ncmd\ncalculator\nyoutube\ngmail\ncalender\nfacebook\nmusic\ntime\nkrunker.io\nroblox\n\ninstagram\nnews\ndictionary\ntwitter\nwhatsapp\nprimevideo\namazon\nnetflix\namazon\nflipkart\npottermore\nsourcecode")
+     speak("the commands are-...google...cmd...calculator...youtube...gmail...calender...facebook...music...time...krunker.io...roblox...instagram...news...dictionary...twitter...whatsapp...primevideo...amazon...netflix...namazon...flipkart...pottermore...sourcecode")
+
 elif enter == ("calculator"):
-   subprocess.call('calc.exe')
+    webbrowser.open("https://www.google.com/search?q=google+calculator&rlz=1C1CHBF_enIN859IN859&oq=google+cal&aqs=chrome.0.0l3j69i57j0l4.6392j0j7&sourceid=chrome&ie=UTF-8")
 elif enter == ("youtube"):
     webbrowser.open("www.youtube.com")
 elif enter == ("gmail"):
@@ -64,10 +63,19 @@ elif enter == ("flipkart"):
     webbrowser.open("https://www.flipkart.com")
 elif enter == ("whatsapp"):
     webbrowser.open("https://web.whatsapp.com")
+elif enter == ("sourcecode"):
+    webbrowser.open("https://github.com/Ak-kid-Coder/Projects")
+elif enter == ("pottermore"):
+    webbrowser.open("https://wizardingworld.com")
 else:
     print("Sorry Cannot do that sir...")
     speak('Sorry Cannot do that sir...')
-    speak("MAYBE I WILL IMPROVE ON DAY")
+    speak("MAYBE I WILL IMPROVE ONE DAY")
+
+    
+
+
+     
 
     
 
